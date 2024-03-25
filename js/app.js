@@ -5,8 +5,8 @@ const { createApp } = Vue
 
 createApp({
   data() {
-    return {
-      message: 'Hello Vue!'
+    return{
+        title:'Hello, Vue is now linked to this App!'
     }
-  }
+  },
 }).mount('#app')
